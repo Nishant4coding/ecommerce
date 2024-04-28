@@ -4,7 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-.yarn/install-state.gz
 
 # testing
 /coverage
@@ -15,6 +14,8 @@
 
 # production
 /build
+/test
+# pnpm-lock.yaml
 
 # misc
 .DS_Store
@@ -27,6 +28,11 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+
+# testing into dev 
+devdev/
+
 
 # vercel
 .vercel
